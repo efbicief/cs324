@@ -1,0 +1,3 @@
+Many of these models were originally not triangulated - therefore, I imported their blends to blender and triangulated them myself. 
+Hence, I have included the modified blends, and only used my custom GLTF exports.
+- Felix

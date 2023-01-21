@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Ultimate Train Simulator</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="main.css" media="all">
+		<style>
+			body {
+				background-color: #ccc;
+				color: #000;
+			}
+
+			a {
+				color: #f00;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="journey-editor" class="center" style="width: 75%; left: 12.5%; top: 10%;">
+			<h1>Ultimate Train Simulator 2K23</h1>
+			<a href="./" class="button-35">Back to main menu</a>
+			<h2>How to play</h2>
+			<p>Use the left mouse button to move around the map, the right mouse button to rotate the map,a nd the scroll wheel to zoom in and out.</p>
+			<p>Your objective is to deliver people to their destination stations. Over time, people will appeat at stations - you can see how many people are waiting at a station by selecting "Create Journey" and hovering over a platform.</p>
+			<p>To place train tracks, select "Place rails" and draw rails between stations. Each station has 2 platforms. Be careful, tracks are permenant! When placing, you cannot place tracks that are too short or long, or at an extreme angle.</p>
+			<p>To send trains between stations, you must create a journey by selecting "Create Journey", and selecting the platforms you wish your train to go to in order.</p>
+			<p>To delete a journey, or change the frequency of trains on a journey, use the "Manage Journeys" menu.</p>
+			<p>You may pause the game by clicking "Pause", or opening any other menu.</p>
+			<p>The game ends once the time reaches 500. You will lose 50 points for each train journey, and gain 1 point for each person delivered to their destination, so make sure to plan your journeys well. Good luck!</p>
+		</div>
+			
+		<!-- Import maps polyfill -->
+		<!-- Remove this when import maps will be widely supported -->
+		<script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+
+		<script type="importmap">
+			{
+				"imports": {
+					"three": "../extra_libraries/js/three.module.js",
+					"three/addons/": "../extra_libraries/js/jsm/"
+				}
+			}
+		</script>
+
+		<script type="module" src="./js/main_menu.js"></script>
+
+	</body>
+</html>

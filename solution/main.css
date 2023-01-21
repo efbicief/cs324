@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'P22 Johnston Underground';
+  src: url('../assets/font/P22JohnstonUnderground.eot');
+  src: url('../assets/font/P22JohnstonUnderground.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/P22JohnstonUnderground.woff2') format('woff2'),
+      url('../assets/font/P22JohnstonUnderground.woff') format('woff'),
+      url('../assets/font/P22JohnstonUnderground.ttf') format('truetype'),
+      url('../assets/font/P22JohnstonUnderground.svg#P22JohnstonUnderground') format('svg');
+}
+
+#toolbar {
+  z-index: 2;
+  font-family: 'P22 Johnston Underground',sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  /* z-index: 100; */
+  display:block;
+}
+
+/* #info {
+  z-index: 1;
+  font-family: 'P22 Johnston Underground',sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+	/* position: absolute;
+	top: 10px;*/
+	/* width: 50%;  
+	text-align: center;
+	z-index: 100;
+	display:block;
+} 
+*/
+
+.ui {
+  -webkit-appearance: none;	
+  appearance: none;
+	font-family: 'P22 Johnston Underground';
+	font-size: 12pt;
+	text-align: center;
+	position: absolute;
+	/* min-width: 80px; */
+	border-radius: 5px;
+	z-index: 1;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.ui_button {
+  position:absolute;
+}
+
+.center {
+  z-index: 2;
+  font-family: 'P22 Johnston Underground',sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: absolute;
+  top: 20%;
+  width: 50%;
+  left: 25%;
+  /* height: 10%; */
+  text-align: center;
+  padding: 20px;
+  /* z-index: 100; */
+  display:block;
+  background-color: #fff;
+  border: 3px solid #000;
+}
+
+/* 
+.center {
+  z-index: 1;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  width: 50%;
+  height: 10%;
+  border: 3px solid green;
+} 
+*/
+
+.ui_container{
+  position: relative;
+}
+
+.button-35 {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: 'P22 Johnston Underground',sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  min-width: 200px;
+}
+
+.button-35:hover {
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
+
+.info-35 {
+  align-items: center;
+  background-color: #ddd;
+  border-radius: 0px;
+  box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: 'P22 Johnston Underground',sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  min-width: 200px;
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Ultimate Train Simulator</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="main.css" media="all">
+		<style>
+			body {
+				background-color: #ccc;
+				color: #000;
+			}
+
+			a {
+				color: #f00;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<!-- <div class="center">
+			<button class="button-35" role="button">Start Game</button>
+		</div> -->
+
+		<div id="toolbar">
+			<p class="info-35" id="score"></p>
+			<p class="info-35" id="timer"></p>
+			<button class="button-35" id="rail-button">Place Rails</button>
+			<button class="button-35" id="journey-button">Create Journey</button>
+			<button class="button-35" id="manage-button">Manage Journeys</button>
+			<button class="button-35" style="min-width: 50px" id="pause-button">Pause</button>
+			<a href="./" class="button-35" style="min-width: 50px">Quit</a>
+			<div class="info-35" id="info" style="display: none"></div>
+		</div>
+
+		<div id="journey-editor" class="center">
+			Loading...
+		</div>
+			
+		<!-- Import maps polyfill -->
+		<!-- Remove this when import maps will be widely supported -->
+		<script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+
+		<script type="importmap">
+			{
+				"imports": {
+					"three": "../extra_libraries/js/three.module.js",
+					"three/addons/": "../extra_libraries/js/jsm/"
+				}
+			}
+		</script>
+
+		<script type="module" src="./js/game_winter.js"></script>
+
+	</body>
+</html>
